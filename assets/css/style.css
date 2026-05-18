@@ -1,9 +1,9 @@
 :root {
-  --primary: #087989;
-  --primary-dark: #073b52;
-  --accent: #f47a30;
-  --mint: #e8f7f6;
-  --sky: #f4fbfc;
+  --primary: #D33A2D;
+  --primary-dark: #A22B22;
+  --accent: #F4C0BD;
+  --mint: #F8EDED;
+  --sky: #FFF6F6;
   --text: #14212b;
   --muted: #647987;
   --line: #dbeaec;
@@ -59,7 +59,7 @@ a {
   width: 46px;
   height: 46px;
   border-radius: 14px;
-  background: linear-gradient(135deg, var(--primary), #0aa6a6);
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   position: relative;
   box-shadow: 0 10px 25px rgba(8, 121, 137, .24);
 }
@@ -90,6 +90,13 @@ a {
   color: var(--primary);
 }
 
+.brand-img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  margin-right: .6rem;
+}
+
 .nav-link {
   color: var(--text);
   font-weight: 700;
@@ -108,7 +115,7 @@ a {
   color: #fff;
   font-weight: 800;
   padding: .78rem 1.35rem;
-  box-shadow: 0 12px 26px rgba(8, 121, 137, .24);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, .12);
   transition: .25s ease;
 }
 
@@ -269,7 +276,7 @@ h1,
 
 .speciality-band {
   background:
-    linear-gradient(90deg, rgba(7, 59, 82, .90), rgba(8, 121, 137, .62)),
+    linear-gradient(90deg, rgba(209, 92, 15, 0.6), rgba(211, 58, 45, 0.62)),
     url("../images/specialities.jpeg") center/cover no-repeat;
   color: #fff;
 }
@@ -654,7 +661,7 @@ h1,
 }
 
 .footer {
-  background: #062f43;
+  background: #191817;
   color: rgba(255, 255, 255, .82);
   padding: 56px 0 0;
 }
